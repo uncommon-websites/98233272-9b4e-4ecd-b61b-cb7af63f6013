@@ -83,5 +83,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop waiting. Start finishing."
+	subtitle="Get supplies to your site in 2–3 hours"
+	description="No more wasted days stuck mid-project. Join hundreds of roofing contractors who finish jobs faster, avoid costly delays, and keep their crews moving."
+	imageSrc="/generated/image-a-professional-roofing-contractor-stands.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Request emergency delivery",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Talk to our team",
+			variant: "secondary"
+		}
+	]}
+/>
