@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Supplies when you need them most"
+	subtitle="Emergency roofing materials delivered in hours"
+	imageSrc="/generated/image-a-group-of-professional-roofing-contract.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/homeDepot.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/lowes.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/84lumber.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/sherwin-williams.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
