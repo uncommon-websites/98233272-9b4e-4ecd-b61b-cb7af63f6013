@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Speed",
+			description: "Emergency deliveries in 2-3 hours because every minute on the job site counts."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Reliability",
+			description: "Mobile warehouses pre-stocked with exactly what you need when you need it."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Expertise",
+			description: "Deep roofing industry knowledge that understands contractor workflows and challenges."
 		}
 	];
 </script>
@@ -44,7 +44,7 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
@@ -97,8 +97,8 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Never wait for materials again"
+	subtitle="Join contractors saving $2000+ per project"
+	description="Get emergency roofing materials delivered to your active job sites in 2-3 hours. No more delays, no more lost revenue. Keep your crews working and your projects on schedule."
+	imageSrc="/generated/image-a-professional-roofing-contractor-stands.webp"
 />
